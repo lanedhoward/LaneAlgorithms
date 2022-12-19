@@ -1,4 +1,6 @@
 ﻿# Data Structures
+In DataStructures.cs, I wrote a class to load each line of a text file into different data structures.
+I have also written summaries of each data structure and their strengths and weaknesses.
 
 ## Arrays
 An array is a data structure that stores set of data of a fixed size.

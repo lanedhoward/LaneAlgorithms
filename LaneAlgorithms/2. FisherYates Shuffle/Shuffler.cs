@@ -10,14 +10,15 @@ namespace LaneAlgorithms
     {
         private static Random random = new Random();
 
-        public static void Shuffle<T>(T[] objects) //improvement 1: made the shuffle method generic. an array shouldn't be concerned with shuffling itself
+        public static void Shuffle<T>(T[] objects) 
         {
-            for(int i = objects.Length -1; i > 0; i -= 1) //improvement 2: i -= 1 is more readable than i--
+            for(int i = objects.Length -1; i > 0; i -= 1)
             {
                 int j = GetRandomNumberBetweenZeroAnd(i);
                 Swapper.SwapValuesAtIndices<T>(objects, i, j);
             }
         }
+        // same fisher-yates shuffle, just iterating through the list slightly differently
         public static void ShuffleAlternative<T>(T[] objects) 
         {
             for (int i = 0; i > objects.Length - 2; i += 1)
@@ -27,7 +28,7 @@ namespace LaneAlgorithms
             }
         }
 
-        private static int GetRandomNumberBetweenZeroAnd(int i) //i like the way this method name reads like english when used
+        private static int GetRandomNumberBetweenZeroAnd(int i) 
         {
             return random.Next(i + 1);
         }
