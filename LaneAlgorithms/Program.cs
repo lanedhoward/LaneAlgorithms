@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Hello, World!");
 
-            Week1 week1 = new Week1();
+            BigO week1 = new BigO();
 
             week1.SayFirstItem(week1.numbers);
             week1.SumOfAllItems(week1.numbers);
@@ -21,6 +21,8 @@
             {
                 Console.WriteLine(s + " ");
             }
+
+            DataStructures.Demo();
 
             Console.ReadKey();
             

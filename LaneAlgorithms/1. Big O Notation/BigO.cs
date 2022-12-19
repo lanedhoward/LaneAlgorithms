@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace LaneAlgorithms
 {
-    public class Week1
+    public class BigO
     {
         public List<int> numbers;
 
-        public Week1()
+        public BigO()
         {
             numbers = new List<int>();
 
