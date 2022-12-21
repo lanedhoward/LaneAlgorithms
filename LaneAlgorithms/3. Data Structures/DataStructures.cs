@@ -53,7 +53,7 @@ namespace LaneAlgorithms
             string[] output = new string[totalLines];
 
             IEnumerator<string> enumerator = text.GetEnumerator();
-            //enumerator.Reset();
+            enumerator.MoveNext();
 
             for (int i = 0; i < totalLines; i++)
             {

@@ -24,6 +24,8 @@
 
             DataStructures.Demo();
 
+            Sorting.Demo();
+
             Console.ReadKey();
             
         }
