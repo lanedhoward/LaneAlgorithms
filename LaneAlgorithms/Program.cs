@@ -28,6 +28,8 @@
 
             Search.Demo();
 
+            Trees.Demo();
+
             Console.ReadKey();
             
         }
