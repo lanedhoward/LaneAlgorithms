@@ -26,6 +26,8 @@
 
             Sorting.Demo();
 
+            Search.Demo();
+
             Console.ReadKey();
             
         }

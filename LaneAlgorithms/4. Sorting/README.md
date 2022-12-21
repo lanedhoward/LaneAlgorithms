@@ -1,6 +1,6 @@
 ﻿# Sorting
 
-# Bubble Sort
+## Bubble Sort
 Runtime: O(n^2)
 
 Memory: O(1)
@@ -12,7 +12,7 @@ swapping adjacent elements that are out of order.
 Bubble sort is slow but works fine for lists smaller than 1000 items.
 It can also be faster than other algorithms for lists smaller than 5 items.
 
-# Insertion Sort
+## Insertion Sort
 
 Runtime: Best case of O(n), worse case O(n^2)
 
@@ -24,7 +24,7 @@ and placing it where it needs to go in the left (already sorted/visited) portion
 Insertion sort has a faster best-case scenario than bubble sort, but it still relatively slow for large lists.
 Still, it works fine for lists <1000 items, and can even be more efficent than others for lists <10 items.
 
-# Selection Sort
+## Selection Sort
 
 Runtime: O(n^2) on average and worst case
 
@@ -35,7 +35,7 @@ Then it repeats, searching for the largest item not yet sorted and moving it int
 
 It has similar performance to insertion sort, with the same use-cases.
 
-# Heap Sort
+## Heap Sort
 
 Runtime: O(n log n)
 
@@ -46,7 +46,7 @@ This means the largest item is found more quickly.
 
 Heap sort first makes the array into a heap. Then, it swaps the root value with the last value in the unsorted portion. Then it restores the heap, and repeats until the array is sorted.
 
-# Quick Sort
+## Quick Sort
 
 Runtime: O(n log n) on average, O(n^2) worst case
 
@@ -58,7 +58,7 @@ Then, it calls itself on those halves, using recursion until the list is complet
 
 Quick sort can be optimized to be much faster than merge sort and heap sort, even though the algorithms have the same asymptotical average.
 
-# Merge Sort
+## Merge Sort
 
 Runtime: average and worst case O(n log n)
 
